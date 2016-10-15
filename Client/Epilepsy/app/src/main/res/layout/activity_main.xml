@@ -1,0 +1,95 @@
+<?xml version="1.0" encoding="utf-8"?>
+<RelativeLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:tools="http://schemas.android.com/tools"
+    android:id="@+id/activity_main"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent"
+    android:paddingBottom="@dimen/activity_vertical_margin"
+    android:paddingLeft="@dimen/activity_horizontal_margin"
+    android:paddingRight="@dimen/activity_horizontal_margin"
+    android:paddingTop="@dimen/activity_vertical_margin"
+    tools:context="com.example.mike.testacc.MainActivity">
+
+    <TextView
+        android:text="Acc Y"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:id="@+id/accYText"
+        android:layout_below="@+id/accXText"
+        android:layout_centerHorizontal="true" />
+
+    <TextView
+        android:text="Acc Z"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:id="@+id/accZText"
+        android:layout_below="@+id/accYText"
+        android:layout_centerHorizontal="true" />
+
+    <TextView
+        android:text="Acc X"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:id="@+id/accXText"
+        android:layout_alignParentTop="true"
+        android:layout_alignStart="@+id/accYText" />
+
+    <TextView
+        android:text="Gravity Y"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:id="@+id/graYText"
+        android:layout_below="@+id/graXText"
+        android:layout_alignEnd="@+id/graXText" />
+
+    <TextView
+        android:text="Gravity Z"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:layout_below="@+id/graYText"
+        android:layout_alignEnd="@+id/graYText"
+        android:id="@+id/graZText" />
+
+    <TextView
+        android:text="Gravity X"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:layout_marginTop="18dp"
+        android:id="@+id/graXText"
+        android:layout_below="@+id/accZText"
+        android:layout_centerHorizontal="true" />
+
+    <TextView
+        android:text="Linear Z"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:layout_below="@+id/linYText"
+        android:layout_centerHorizontal="true"
+        android:id="@+id/linZText" />
+
+    <TextView
+        android:text="Linear X"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:layout_marginTop="21dp"
+        android:id="@+id/linXText"
+        android:layout_below="@+id/graZText"
+        android:layout_alignStart="@+id/linZText" />
+
+    <TextView
+        android:text="Linear Y"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:id="@+id/linYText"
+        android:layout_below="@+id/linXText"
+        android:layout_alignStart="@+id/linXText" />
+
+    <TextView
+        android:text="Time"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:layout_below="@+id/linZText"
+        android:layout_centerHorizontal="true"
+        android:layout_marginTop="18dp"
+        android:id="@+id/currTime" />
+</RelativeLayout>
