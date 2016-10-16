@@ -12,6 +12,12 @@ A prototype that the detects shaking, turns on the microphone for a while to rec
 
 # Solution
 
+1. To using Android sensor to collect users shaking data.
+2. Every 30 seconds, send the device local temporary data to server side and store.
+3. Every 30 seconds, server side clean the raw data. (Median Filter & 3rd Order Butterworth Filter)
+4. Then using Machine learning to detect whether the user is in a emergency situation.
+5. If yes, send the signal to related organization.
+
 ## How it works?
 
-![Alt text](http://remo.site/img/image.png)
+![Image](http://remo.site/img/image.png)
