@@ -10,3 +10,8 @@ A mobile phone or other device that can tell if a person is having a seizure and
 # What can be done in 48 hours at a hackathon?
 A prototype that the detects shaking, turns on the microphone for a while to record local activity and logs the event would be a great proof of concept that would help further our work and be useful in short term use.
 
+# Solution
+
+## How it works?
+
+![Alt text](http://remo.site/img/image.png)
